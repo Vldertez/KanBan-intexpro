@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/styles/style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <form class="createStatus">
+                <h3>Добавить статус</h3>
+                <p>
+                    <label for="name">Название статуса</label>
+                    <input type="text" id="name">
+                </p>
+                <button>
+                    Создать статус
+                </button>
+            </form>
+            <hr>
+            <form class="createTask">
+                <h3>Добавить задачу</h3>
+                <p>
+                    <label for='name'>Название задачи</label>
+                    <input type="text" id="name">
+                </p>
+                <p>
+                    <label for='status'>Статус</label>
+                    <select id="status" class="statusSelect">
+
+                    </select>
+                </p>
+                <p>
+                    <label for='description'>Описание</label>
+                    <textarea id="description" style="resize: none; height: 60px;"></textarea>
+                <p>
+                    <label for='executor'>Исполнитель</label>
+                    <input type="text" id="executor">
+                </p>
+                <p>
+                    <label for='provider'>Поставщик</label>
+                    <input type="text" id="provider">
+                </p>
+                <p>
+                    <label for='dateStart'>Дата начала</label>
+                    <input type="date" id="dateStart">
+                </p>
+                <p>
+                    <label for='dateEnd'>Дата завершения</label>
+                    <input type="date" id="dateEnd">
+                </p>
+                <button>Добавить задачу</button>
+            </form>
+        </section>
+       
+        <section class="kanban">
+            <!-- <div class="status">
+                <h2>Статус</h2>
+                <div class="task">
+                    <p>Задача 1</p>
+                </div>
+            </div> -->
+        </section>
+
+    </main>
+    <script src="/assets/scripts/script.js"></script>
+</body>
+</html>
