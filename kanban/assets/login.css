@@ -1,0 +1,28 @@
+.login {
+	background: rgba(0,0,0,0.5);
+	padding: 20px;
+	box-shadow: 0 0 3px 1px rgba(0,0,0,0.5);
+}
+.login form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+}
+.login input {
+	width: 300px;
+	height: 40px;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	border: 2px solid #2CA3DC;
+
+}
+.login input[placeholder]{
+	color: #06246f;
+}
+.oklogin {
+	background: #2CA3DC;
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+}
